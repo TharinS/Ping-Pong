@@ -71,7 +71,7 @@ int main() {
     Window.setFramerateLimit(60);
 
     sf::Font TextFont;
-    if (!TextFont.loadFromFile("Projects\\Fonts\\PlayfairDisplay-Bold.ttf")) {
+    if (!TextFont.loadFromFile("Fonts\\PlayfairDisplay-Bold.ttf")) {
         cout << "Font file could not be loaded" << endl;
     }
 
@@ -97,7 +97,7 @@ int main() {
 
     // Background Sprite
     sf::Texture Background;
-    if (!Background.loadFromFile("Projects\\assets\\PPBackGround.png")) {
+    if (!Background.loadFromFile("Assets\\PPBackGround.png")) {
         cout << "Background texture could not be loaded" << endl;
     }
 
