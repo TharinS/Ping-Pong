@@ -79,7 +79,7 @@ int main() {
     TextStart.setFont(TextFont);
     TextStart.setFillColor(sf::Color::White);
     TextStart.setCharacterSize(25);
-    TextStart.setString("Press Space to Start\n Dont let ball touch the red\nUp to move up\nDown to move down\nGood Luck\n\nGo to code and uncomment\n lines 194 - 199 to see AI vs AI");
+    TextStart.setString("Press Space to Start\n Dont let ball touch the red\nUp to move up\nDown to move down\nGood Luck\n\nGo to code and uncomment\n lines 216 - 221 to see AI vs AI");
     TextStart.setOrigin(TextStart.getLocalBounds().left + TextStart.getLocalBounds().width / 2, TextStart.getLocalBounds().top + TextStart.getLocalBounds().height / 2);
     TextStart.setPosition(sf::Vector2f(399, 249));
     TextStart.setOutlineColor(sf::Color(191, 191, 191, 255));
